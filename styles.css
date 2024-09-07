@@ -17,18 +17,17 @@ body {
     margin-right: 50px;
 }
 
+/* styling for navigation */
 nav {
     display: flex;
     justify-content: space-between;
 }
-
 .top-name {
     font-family: 'Inter';
     font-weight: bold;
     font-size: 30px;
     color: #9CD5FF;
 }
-
 .top-button {
     font-family: 'Inter';
     font-weight: bold;
@@ -38,4 +37,43 @@ nav {
     padding: 8px 15px 8px 15px;
     background-color: #9CD5FF;
     border-radius: 18px;
+}
+
+/* styling for featured photo */
+.feature {
+    display: flex;
+    background-color: #9CD5FF;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #e14310; */
+}
+.darkblue-header {
+    color: #0D3982;
+    font-size: 60px;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.intro {
+    color: #0D3982;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: regular;
+    max-width: 650px;
+}
+
+.section-header {
+    color: #99C5F2;
+    font-size: 60px;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
 }
