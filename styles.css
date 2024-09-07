@@ -17,6 +17,21 @@ body {
     margin-right: 50px;
 }
 
+/* for headings */
+.section-header {
+    color: #99C5F2;
+    font-size: 60px;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* for highlighted parts */
+.highlight {
+    font-weight: bold;
+}
+
 /* styling for navigation */
 nav {
     display: flex;
@@ -68,12 +83,46 @@ nav {
     font-weight: regular;
     max-width: 650px;
 }
+#ari {
+    max-height: 435px;
+}
 
-.section-header {
-    color: #99C5F2;
-    font-size: 60px;
+/* styling for givecommit project */
+#splash {
+    max-height: 660px;
+    margin-right: 40px;
+}
+.product-img {
+    max-height: 300px;
+}
+.givecommit {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.desc-content {
+    color: #0D3982;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: regular;
+}
+.givecommit-features {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+.snippet {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F6FB;
+    color: black;
     font-family: 'Inter';
     font-weight: bold;
-    margin-bottom: 0;
     text-align: center;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
