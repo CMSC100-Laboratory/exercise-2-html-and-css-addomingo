@@ -202,3 +202,9 @@ nav {
     margin-left: 15px;
     margin-bottom: 20px;
 }
+
+/* styling for autobiography */
+.autobiography {
+    font-size: 18px;
+    color: #0D3982;
+}
