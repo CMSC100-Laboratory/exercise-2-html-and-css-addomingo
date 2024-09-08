@@ -1,12 +1,12 @@
 /* custom fonts */
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/Inter-Regular.ttf) format('truetype');
+    src: url(assets/fonts/Inter-Regular.ttf) format('truetype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/Inter-Bold.ttf) format('truetype');
+    src: url(assets/fonts/Inter-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 
@@ -125,4 +125,80 @@ nav {
     padding-right: 30px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* styling for skills and autobiography section*/
+.skills-and-auto {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.part {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+}
+.sa-container {
+    background-color: #C6E2FF;
+    flex: 1; /* to keep both containers' sizes even */
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}
+
+/* styling for programming skills */
+.programming-skills {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: center;
+    gap: 10px;
+}
+.icons {
+    max-height: 100px;
+    margin: 15px;
+}
+.icon-holder {
+    height: 130px;
+    width: 130px;
+    border-radius: 60px;
+    background-color: #F3F6FB;
+}
+
+/* styling for management skills */
+.category {
+    font-weight: bold;
+    font-size: 25px;
+    color: #0D3982;
+    margin-bottom: 15px;
+}
+.date-stamp1 {
+    background-color: white;
+    color: #0D3982;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    width: 140px;
+}
+.date-stamp2 {
+    background-color: white;
+    color: #0D3982;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    width: 70px;
+}
+.exp-detail {
+    flex: 2;
+    font-size: 16px;
+    color: #0D3982;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
