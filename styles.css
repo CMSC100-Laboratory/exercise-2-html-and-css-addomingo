@@ -182,6 +182,7 @@ nav {
 .programming-skills {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 15px;
     justify-content: center;
     gap: 10px;
